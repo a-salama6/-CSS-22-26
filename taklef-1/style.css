@@ -1,0 +1,23 @@
+/* إستخدم البنية السابقة ولا تقم بالتعديل عليها
+قم بعمل الشكل التالي كما هو
+تأكد أن أي تغيير في ال Padding أو ال Border للعنصر الأب ( Div ) يحدث لنفس العنصر الإبن ( P ) بدون التعديل عليه
+الشكل بالأسفل للتوضيح لو قمنا بتغيير الألوان كيف سيكون الشكل */
+
+div
+{
+    border: orangered solid 5px;
+    padding: 20px;
+    width: 400px;
+    height: 100px;
+    margin: auto;
+    background-color: #ced2d5;
+}
+p
+{
+    background-color: #888684;
+border: inherit;
+padding: inherit;
+margin: auto;
+padding: 5px;
+text-align: center;
+}

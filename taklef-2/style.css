@@ -1,0 +1,25 @@
+/* قم بعمل الشكل التالي بثلاث خطوط مختلفة
+في الشكل الأول قم بإستعمال الخط Open Sans وتأكد أن وزن الخط هو 300 ويكون الخط مائل
+في الشكل الثاني قم بإستعمال الخط Cairo وتأكد أن وزن الخط هو 700
+في الشكل الثالث قم بإستعمال الخط Jomhuria وتأكد أن وزن الخط هو 400
+ */
+.one
+{
+    font-weight: 300;
+    font-family: "Open Sans", sans-serif;
+    font-size: 900;
+}
+.two
+{
+    font-weight:700 ;
+    font-family: "Cairo", sans-serif;
+    font-size: 900;
+
+}
+.three
+{
+    font-family: "Jomhuria", serif;
+    font-weight: 400;
+    font-size: 900;
+
+}
